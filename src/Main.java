@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
 
     public static void task1() {
@@ -78,5 +79,17 @@ int totalWhitePaint=totalClass*whitePaint;
 int totalBrownPaint=totalClass*brownPaint;
         System.out.println("В школе где "+totalClass+" классов,нужно "+totalWhitePaint+
         " банок белой краски и "+totalBrownPaint+" банок коричневой краски.");
+    }
+    public static void task6(){
+        int bananas=5;
+        int weightOneBanana=80;
+        int weightBananas=bananas*weightOneBanana;
+        int weightMilk=105*2;
+        int iceCreamWeight=100*2;
+        int eggWeight=70*4;
+        int servingInGrams=weightBananas+weightMilk+iceCreamWeight+eggWeight;
+        System.out.println("Одна порция в граммах равна "+servingInGrams+" грамм.");
+        double portionInKilograms=servingInGrams/1000d;
+        System.out.println("Одна порция в килограммах равна "+portionInKilograms+" кг.");
     }
 }
