@@ -4,6 +4,7 @@ public class Main {
         task2();
         task3();
         task4();
+        task5();
     }
 
     public static void task1() {
@@ -67,5 +68,15 @@ public class Main {
         System.out.println(inDay+"машина произвела "+bottlesInDay+" штук бутылок");
         System.out.println(threeDay+"машина произвела "+bottlesThreeDay+" штук бутылок");
         System.out.println(oneMonth+"машина произвела "+bottlesInMonth+" штук бутылок");
+    }
+    public static void task5(){
+int potsPaint=120;
+int whitePaint=2;
+int brownPaint=4;
+int totalClass=potsPaint/(whitePaint+brownPaint);
+int totalWhitePaint=totalClass*whitePaint;
+int totalBrownPaint=totalClass*brownPaint;
+        System.out.println("В школе где "+totalClass+" классов,нужно "+totalWhitePaint+
+        " банок белой краски и "+totalBrownPaint+" банок коричневой краски.");
     }
 }
