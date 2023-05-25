@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
 
     public static void task1() {
@@ -91,5 +92,17 @@ int totalBrownPaint=totalClass*brownPaint;
         System.out.println("Одна порция в граммах равна "+servingInGrams+" грамм.");
         double portionInKilograms=servingInGrams/1000d;
         System.out.println("Одна порция в килограммах равна "+portionInKilograms+" кг.");
+    }
+    public static void task7(){
+     int excessWeight=7;
+     int excessWeightGrams=excessWeight*1000;
+     int calories1=250;//пусть будет каллории ,хоть и граммы)
+     int calories2=500;
+     int thinDays1=excessWeightGrams/calories1;
+     int thinDays2=excessWeightGrams/calories2;
+        System.out.println(thinDays1+" дней, если худеть по 250гр.");
+        System.out.println(thinDays2+" дней, еслихудеть по 500гр.");
+        int medDay=excessWeightGrams/((calories2+calories1)/2);//не уверен в правильности вычесления
+        System.out.println(medDay+ " дней,если худет в среднем.");
     }
 }
