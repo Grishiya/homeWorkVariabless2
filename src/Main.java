@@ -1,7 +1,9 @@
 public class Main {
     public static void main(String[] args) {
         task1();
-    task2();}
+    task2();
+    task3();
+    }
         public static void task1() {
             int a = 123456;
             byte b = 1;
@@ -33,5 +35,15 @@ public class Main {
             System.out.println(e);
             System.out.println(f);
             System.out.println(g);
+
+    }
+    public static void task3(){
+        int lPTeachers=23;
+        int aSTeachers=27;
+        int eATeachers=30;
+        int leaf=480;
+        int totalTeachers=lPTeachers+aSTeachers+eATeachers;
+        int leafOnTeacher=leaf/totalTeachers;
+        System.out.println("На каждого ученика рассчитано "+totalTeachers+" листов бумаги.");
     }
 }
