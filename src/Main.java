@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
 
     public static void task1() {
@@ -47,6 +48,24 @@ public class Main {
         int leaf = 480;
         int totalTeachers = lPTeachers + aSTeachers + eATeachers;
         int leafOnTeacher = leaf / totalTeachers;
-        System.out.println("На каждого ученика рассчитано " + totalTeachers + " листов бумаги.");
+        System.out.println("На каждого ученика рассчитано " + leafOnTeacher + " листов бумаги.");
+    }
+    public static void task4(){
+        int bottles2Min=16;
+        int bottlesMin=bottles2Min/2;
+        int bottles20min=bottlesMin*20;
+        int minInDay=24*60;
+        int bottlesInDay=bottlesMin*minInDay;
+        int bottlesThreeDay=bottlesMin*minInDay*3;
+        int minInMonth=minInDay*30;
+        int bottlesInMonth=bottlesMin*minInMonth;
+        String min20="За 20 минут ";
+        String inDay="За сутки ";
+        String threeDay= "За 3 дня ";
+       String oneMonth="За 1 месяц ";
+        System.out.println(min20+"машина произвела "+bottles20min+" штук бутылок");
+        System.out.println(inDay+"машина произвела "+bottlesInDay+" штук бутылок");
+        System.out.println(threeDay+"машина произвела "+bottlesThreeDay+" штук бутылок");
+        System.out.println(oneMonth+"машина произвела "+bottlesInMonth+" штук бутылок");
     }
 }
