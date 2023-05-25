@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
 
     public static void task1() {
@@ -104,5 +105,23 @@ int totalBrownPaint=totalClass*brownPaint;
         System.out.println(thinDays2+" дней, еслихудеть по 500гр.");
         int medDay=excessWeightGrams/((calories2+calories1)/2);//не уверен в правильности вычесления
         System.out.println(medDay+ " дней,если худет в среднем.");
+    }
+    public static void task8(){
+        int zpMasha=67760;
+        int zpDenis=83690;
+        int zpKristina=76230;
+        int perMasha=zpMasha/10,perDenis=zpDenis/10,perKristnina=zpKristina/10;
+        int zpMashaUp=zpMasha+perMasha;
+        int zpDenisUp=perDenis+zpDenis;
+        int zpKristinaUp=perKristnina+zpKristina;
+        int difMasha=zpMashaUp-zpMasha;
+        int difDenis=zpDenisUp-zpDenis;
+        int difKristina=zpKristinaUp-zpKristina;
+        System.out.println("Маша теперь получает "+zpMashaUp+" рублей. Годовой доход вырос на "+difMasha+" рублей.");
+        System.out.println("Денис теперь получает "+zpDenisUp+" рублей. Годовой доход вырос на "+difDenis+" рублей");
+        System.out.println("Кристина теперь получает "+zpKristinaUp+" рублей. Годовой доход вырос на "+difKristina+" рублей");
+
+        System.out.println(zpMasha);
+
     }
 }
