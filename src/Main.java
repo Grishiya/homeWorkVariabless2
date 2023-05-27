@@ -11,6 +11,7 @@ public class Main {
     }
 
     public static void task1() {
+        System.out.println("Задача 1.");
         int a = 123456;
         byte b = 1;
         short c = 150;
@@ -27,6 +28,7 @@ public class Main {
     }
 
     public static void task2() {//В каждом методе могу называть переменные как в прошлых.
+        System.out.println("Задача 2");
         float a = 27.12f;
         long b = 987678965549L;
         double c = 2.786d;
@@ -46,6 +48,7 @@ public class Main {
     }
 
     public static void task3() {
+        System.out.println("Задача 3.");
         int lPTeachers = 23;
         int aSTeachers = 27;
         int eATeachers = 30;
@@ -56,6 +59,7 @@ public class Main {
     }
 
     public static void task4() {
+        System.out.println("Задача 4.");
         int bottles2Min = 16;
         int bottlesMin = bottles2Min / 2;
         int bottles20min = bottlesMin * 20;
@@ -75,6 +79,7 @@ public class Main {
     }
 
     public static void task5() {
+        System.out.println("Задача 5.");
         int potsPaint = 120;
         int whitePaint = 2;
         int brownPaint = 4;
@@ -86,6 +91,7 @@ public class Main {
     }
 
     public static void task6() {
+        System.out.println("Задача 6.");
         int bananas = 5;
         int weightOneBanana = 80;
         int weightBananas = bananas * weightOneBanana;
@@ -99,6 +105,7 @@ public class Main {
     }
 
     public static void task7() {
+        System.out.println("Задача 7.");
         int excessWeight = 7;
         int excessWeightGrams = excessWeight * 1000;
         int calories1 = 250;//пусть будет каллории ,хоть и граммы)
@@ -112,6 +119,7 @@ public class Main {
     }
 
     public static void task8() {
+        System.out.println("Задача 8.");
         int zpMasha = 67760;
         int zpDenis = 83690;
         int zpKristina = 76230;
